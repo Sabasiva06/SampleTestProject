@@ -19,6 +19,11 @@ public class Test {
 		// It is used to refresh the webpage
 		driver.navigate().refresh();
 		txtUserName.sendKeys("hijavaaa");
+		WebElement txtUserName1 = driver.findElement(By.id("username"));
+		txtUserName1.sendKeys("welcomeJava");
+		// It is used to refresh the webpage
+		driver.navigate().refresh();
+		txtUserName1.sendKeys("hijavaaa");
 		WebElement txtUserName2 = driver.findElement(By.id("username"));
 		txtUserName2.sendKeys("welcomeJava");
 		// It is used to refresh the webpage
